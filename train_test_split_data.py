@@ -2,7 +2,7 @@ import os
 import shutil
 from sklearn.model_selection import train_test_split
 
-root = 'sketchydata'
+root = '/kaggle/input/sketchy/'
 # shutil.rmtree(root)
 os.makedirs(root)
 
